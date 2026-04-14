@@ -2,6 +2,31 @@ header, footer {
     background-color: #e0bb76ac;
 }
 
+footer, nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+nav > p {
+    display: flex;
+    margin-right: auto;
+    color: #990000;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#lien {
+    margin-left: 50px;
+}
+
+header > nav > img {
+    width: 100px;
+    height: auto;
+}
+
 body {
     background-color: #ffe1ad;
     font: Arial;
@@ -13,8 +38,16 @@ h1 {
 
 section {
     background-color: #f5ca7a94;
-    text-align: center;
     padding: 20px;
+}
+
+#bienvenue, #decouvrir {
+    text-align: center;
+}
+
+#decouvrir > img {
+    width: 300px;
+    height: auto;
 }
 
 #adopt {
@@ -39,7 +72,7 @@ form {
 }
 
 #formulaire {
-    border: 3px solid darkgreen;
+    border: 3px solid brown;
     background-color: #c0c0c0;
     margin: auto;
     max-width: 900px;
@@ -48,6 +81,6 @@ form {
 }
 
 fieldset {
-    border: 3px solid darkgreen;
+    border: 3px solid brown;
     background-color: #f0f0f0;
 }
