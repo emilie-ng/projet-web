@@ -1,0 +1,53 @@
+header, footer {
+    background-color: #e0bb76ac;
+}
+
+body {
+    background-color: #ffe1ad;
+    font: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: #f5ca7a94;
+    text-align: center;
+    padding: 20px;
+}
+
+#adopt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#adopt > div {
+    padding: 30px;
+}
+
+#adopt > div > img {
+    width: 300px;
+    height: auto;
+}
+
+form {
+    padding: 20px;
+    margin: 10px;
+}
+
+#formulaire {
+    border: 3px solid darkgreen;
+    background-color: #c0c0c0;
+    margin: auto;
+    max-width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+fieldset {
+    border: 3px solid darkgreen;
+    background-color: #f0f0f0;
+}

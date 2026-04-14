@@ -19,20 +19,73 @@
         </nav>
     </header>
 
-    <section>
-        <h1>Adoption</h1>
-
+    <h1>Adoption</h1>
+    <section id="adopt">
         <div>
-            <img src="../capybara1.png">
-            <h2>Charles</h2>
+            <img id="capylian" src="../img/capybara1.png" alt="Photo de Capylian">
+            <img id="capyliangif" src="../img/capybara1." alt="GIF de Capylian">
+            <h2>Capylian</h2>
             <ul>
-                <li>Âge : 3 ans</li>
-                <li>Couleur : X</li>
-                <li>Caractère : Calme et affectueux</li>
-                <li>Histoire : Trouvé abandonné dans un parc, il adore les câlins.</li>
+                <li>Âge : 5 ans</li>
+                <li>Caractère : Calme et sournois</li>
+                <li>Histoire : Trouvé abandonné dans un parc, il adore les câlins</li>
             </ul>
         </div>
 
+        <div>
+            <img src="../img/capybara2.png" alt="Photo de Capymentine">
+            <h2>Capymentine</h2>
+            <ul>
+                <li>Âge : 4 ans</li>
+                <li>Caractère : Timide et curieuse</li>
+                <li>Histoire : Sauvée d'une inondation, elle adore les bains de boue</li>
+            </ul>
+        </div>
+
+        <div>
+            <img src="../img/capybara3.png" alt="Photo de Capyphael">
+            <h2>Capyphael</h2>
+            <ul>
+                <li>Âge : 3 ans</li>
+                <li>Caractère : Joueur et gourmand</li>
+                <li>Histoire : Trouvé dans une ferme, il adore les fruits frais</li>
+            </ul>
+        </div>
+
+        <div>
+            <img src="../img/capybara4.png" alt="Photo de Capymilie">
+            <h2>Capymilie</h2>
+            <ul>
+                <li>Âge : 6 ans</li>
+                <li>Caractère : Protectrice et affectueuse</li>
+                <li>Histoire : Trouvée dans une forêt, elle adore les longues siestes</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <h1>Formulaire d'adoption</h1>
+    <section>
+        <form action="/adoption.html" method="post">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom"><br>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom"><br>
+                <label for="date">Date de Naissance :</label>
+                <input type="date" id="date"><br>
+                <label for="mail">Adresse mail :</label>
+                <input type="email" id="mail"><br>
+                <label>Statut :</label>
+                <select id="selection">
+                    <option id="vide" value="">Choississez un statut</option>
+                    <option value="s1">Statut 1</option>
+                    <option value="s2">Statut 2</option>
+                </select>
+            </fieldset>
+            <input id="startquiz" type="button" value="Envoyer">
+        </form>
     </section>
 
     <footer>
