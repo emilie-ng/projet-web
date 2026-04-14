@@ -18,6 +18,18 @@ nav > p {
     font-weight: bold;
 }
 
+nav > a {
+    display: flex;
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 50%;
+}
+
 #lien {
     margin-left: 50px;
 }
@@ -40,6 +52,8 @@ h1 {
 
 section {
     background-color: #f5ca7a94;
+    max-width: 1200px;
+    margin: auto;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -59,10 +73,11 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 50px;
+    row-gap: 50px;
 }
 
 a > img {
-    width: 600px;
+    width: 400px;
     height: auto;
 }
 
