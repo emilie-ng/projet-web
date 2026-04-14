@@ -29,7 +29,8 @@ header > nav > img {
 
 body {
     background-color: #ffe1ad;
-    font: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
 }
 
 h1 {
@@ -46,6 +47,12 @@ section {
     text-align: center;
 }
 
+#imgAcc {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
 #decouvrir {
     display: flex;
     flex-wrap: wrap;
@@ -54,7 +61,7 @@ section {
 }
 
 a > img {
-    width: 500px;
+    width: 600px;
     height: auto;
 }
 
@@ -95,7 +102,7 @@ thead, tfoot {
 }
 
 #adopt > div > img {
-    width: 300px;
+    width: 350px;
     height: auto;
 }
 
