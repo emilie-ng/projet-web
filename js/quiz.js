@@ -2,7 +2,7 @@ let tentative=1;
 
 function submitQuiz(){
     let score=0;
-    text=document.getElementById("texte").value.toLowerCase()
+    let text=document.getElementById("texte").value.toLowerCase()
     if (document.getElementById("radio1").checked){
         score=score+3;
     }
@@ -21,9 +21,17 @@ function submitQuiz(){
     if (document.getElementById("checkbox3").checked){
         score=score-1.5;
     }
+
+    if (text=="hydrochoerus hydrochaeris"){
+        
+
+    }
   
 
     let ligne= document.createElement("tr");
+
+    let name = document.createElement("td");
+    name.textContent = document.getElementById("nom")
     
     let e = document.createElement("td");
     e.textContent = tentative;
@@ -37,6 +45,11 @@ function submitQuiz(){
     document.getElementById("radio1").checked = false;
     document.getElementById("radio2").checked = false;
     document.getElementById("radio3").checked = false;
+    document.getElementById("radio4").checked = false;
+    document.getElementById("radio5").checked = false;
+    document.getElementById("radio6").checked = false;
+    document.getElementById("radio7").checked = false;
+    document.getElementById("radio8").checked = false;
     document.getElementById("checkbox1").checked = false;
     document.getElementById("checkbox2").checked = false;
     document.getElementById("checkbox3").checked = false;
