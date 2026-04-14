@@ -41,20 +41,28 @@ header > nav > a > img {
 
 body {
     background-color: #ffe1ad;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 90%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 110%;
+}
+
+h1, h2 {
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
 }
 
 section {
     background-color: #f5ca7a94;
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
