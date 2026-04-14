@@ -22,7 +22,7 @@ nav > p {
     margin-left: 50px;
 }
 
-header > nav > img {
+header > nav > a > img {
     width: 100px;
     height: auto;
 }
@@ -35,6 +35,7 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 300%;
 }
 
 section {
