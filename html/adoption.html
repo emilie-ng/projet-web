@@ -27,7 +27,8 @@
             <ul>
                 <li>Âge : 5 ans</li>
                 <li>Caractère : Calme et sournois</li>
-                <li>Histoire : Trouvé abandonné dans un parc, il adore les câlins</li>
+                <li>Histoire : Trouvé abandonné dans un parc</li>
+                <li>Adore : Les câlins</li>
             </ul>
         </div>
 
@@ -37,7 +38,8 @@
             <ul>
                 <li>Âge : 4 ans</li>
                 <li>Caractère : Timide et curieuse</li>
-                <li>Histoire : Sauvée d'une inondation, elle adore les bains de boue</li>
+                <li>Histoire : Sauvée d'une inondation</li>
+                <li>Adore : Les bains de boue</li>
             </ul>
         </div>
 
@@ -47,7 +49,8 @@
             <ul>
                 <li>Âge : 3 ans</li>
                 <li>Caractère : Joueur et gourmand</li>
-                <li>Histoire : Trouvé dans une ferme, il adore les fruits frais</li>
+                <li>Histoire : Trouvé dans une ferme</li>
+                <li>Adore : Les fruits frais</li>
             </ul>
         </div>
 
@@ -57,15 +60,16 @@
             <ul>
                 <li>Âge : 6 ans</li>
                 <li>Caractère : Protectrice et affectueuse</li>
-                <li>Histoire : Trouvée dans une forêt, elle adore les longues siestes</li>
+                <li>Histoire : Trouvée dans une forêt</li>
+                <li>Adore : Les longues siestes</li>
             </ul>
         </div>
 
     </section>
 
     <h1>Formulaire d'adoption</h1>
-    <section>
-        <form action="/adoption.html" method="post">
+    <section class="centrer">
+        <form id="formulaire"action="/adoption.html" method="post">
             <fieldset>
                 <legend>Vos coordonnées</legend>
                 <label for="nom">Nom :</label>
@@ -76,11 +80,13 @@
                 <input type="date" id="date"><br>
                 <label for="mail">Adresse mail :</label>
                 <input type="email" id="mail"><br>
-                <label>Statut :</label>
+                <label>Choix :</label>
                 <select id="selection">
-                    <option id="vide" value="">Choississez un statut</option>
-                    <option value="s1">Statut 1</option>
-                    <option value="s2">Statut 2</option>
+                    <option id="vide" value="">Choississez un capybara</option>
+                    <option value="s1">Capylian</option>
+                    <option value="s2">Capymentine</option>
+                    <option value="s3">Capyphael</option>
+                    <option value="s4">Capymilie</option>
                 </select>
             </fieldset>
             <input id="startquiz" type="button" value="Envoyer">

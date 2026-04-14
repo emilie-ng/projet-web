@@ -39,15 +39,48 @@ h1 {
 section {
     background-color: #f5ca7a94;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
-#bienvenue, #decouvrir {
+.centrer {
     text-align: center;
 }
 
-#decouvrir > img {
-    width: 300px;
+#decouvrir {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+a > img {
+    width: 500px;
     height: auto;
+}
+
+table, td, caption {
+    background-color: lightgray;
+    border: 1px solid #333;
+    min-width: 500px;
+    margin: auto;
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+td {
+    background-color: white;
+}
+
+caption {
+    color: red;
+    font-size: large;
+}
+
+thead, tfoot {
+    background-color: darkgreen;
+    color: #fff;
 }
 
 #adopt {
@@ -67,7 +100,7 @@ section {
 }
 
 form {
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
 }
 
@@ -75,12 +108,18 @@ form {
     border: 3px solid brown;
     background-color: #c0c0c0;
     margin: auto;
-    max-width: 900px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    max-width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 fieldset {
     border: 3px solid brown;
+    padding: 20px;
     background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+legend {
+    background-color: brown;
 }
