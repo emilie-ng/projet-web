@@ -37,6 +37,7 @@ nav > a:hover, .actuel {
 
 a {
     text-decoration: none;
+    color: #7a3e00;
 }
 
 .invi {
@@ -91,7 +92,7 @@ section {
     padding: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 20px 3px #C58B55;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .centrer {
