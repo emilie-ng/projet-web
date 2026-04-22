@@ -1,5 +1,5 @@
 header, footer {
-    background-color: #e0bb76ac;
+    background-color: #C58B55;
     border-radius: 8px;
 }
 
@@ -13,7 +13,7 @@ footer, nav {
 nav > p {
     display: flex;
     margin-right: auto;
-    color: #990000;
+    color: #fff6e3;
     margin-left: 10px;
     font-size: 30px;
     font-weight: bold;
@@ -21,8 +21,8 @@ nav > p {
 
 nav > a {
     display: flex;
-    color: red;
-    background-color: white;
+    color: #8C8F6A;
+    background-color: #fff6e3;
     align-items: center;
     justify-content: center;
     min-width: 100px;
@@ -70,7 +70,7 @@ body {
     font-size: 110%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Baloo 2', cursive;
     text-align: center;
     color: #7a3e00;
@@ -85,12 +85,12 @@ h2 {
 }
 
 section {
-    background-color: #f5ca7a94;
+    background-color: #fff6e3;
     max-width: 1200px;
     margin: auto;
     padding: 10px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 20px 3px brown;
+    box-shadow: 0px 0px 20px 3px #C58B55;
     border-radius: 8px;
 }
 
@@ -135,7 +135,7 @@ section {
 }
 
 table, td, caption {
-    background-color: lightgray;
+    background-color: #8A5F3D;
     border: 1px solid #333;
     min-width: 500px;
     margin: auto;
@@ -150,12 +150,12 @@ td {
 }
 
 caption {
-    color: red;
+    color: #fff6e3;
     font-size: large;
 }
 
 thead, tfoot {
-    background-color: darkgreen;
+    background-color: #8C8F6A;
     color: #fff;
 }
 
@@ -181,8 +181,8 @@ form {
 }
 
 #formulaire {
-    border: 3px solid brown;
-    background-color: #c0c0c0;
+    border: 3px solid #8A5F3D;
+    background-color: #8C8F6A;
     margin: auto;
     max-width: 350px;
     margin-top: 20px;
@@ -190,17 +190,30 @@ form {
 }
 
 fieldset {
-    border: 3px solid brown;
+    border: 3px solid #8A5F3D;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #fff6e3;
     margin-bottom: 10px;
 }
 
 legend {
-    background-color: brown;
+    background-color: #8A5F3D;
+    color: white;
 }
 
 .taille_capy {
     width: 400px;
     height: auto;
+}
+
+#soumettre {
+    background-color:#8C8F6A;
+    color:white;
+    border-radius: 5px;
+}
+
+#startquiz {
+    background-color:#8A5F3D;
+    color:white;
+    border-radius: 5px;
 }

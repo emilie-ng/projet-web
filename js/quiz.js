@@ -29,7 +29,10 @@ function submitQuiz(){
         if (text=="hydrochoerus hydrochaeris"){
             score=score+8;
         }
-    
+        
+        if (score<0){
+            score=0
+        }
 
         let ligne= document.createElement("tr");
 
