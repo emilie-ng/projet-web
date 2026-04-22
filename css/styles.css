@@ -1,5 +1,6 @@
 header, footer {
     background-color: #e0bb76ac;
+    border-radius: 8px;
 }
 
 footer, nav {
@@ -64,6 +65,8 @@ section {
     margin: auto;
     padding: 10px;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 3px brown;
+    border-radius: 2%;
 }
 
 .centrer {
@@ -153,4 +156,9 @@ fieldset {
 
 legend {
     background-color: brown;
+}
+
+.taille_capy {
+    width: 400px;
+    height: auto;
 }
