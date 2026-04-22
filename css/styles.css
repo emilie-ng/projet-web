@@ -21,18 +21,42 @@ nav > p {
 
 nav > a {
     display: flex;
-    text-decoration: none;
     color: red;
     background-color: white;
     align-items: center;
     justify-content: center;
     min-width: 100px;
     min-height: 50px;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
-#lien {
-    margin-left: 50px;
+nav > a:hover, .actuel {
+    background-color: #990000;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.invi {
+    background-color: transparent;
+}
+
+.bloc {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.bloc img {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.bloc img:hover {
+    transform: scale(1.1);
 }
 
 header > nav > a > img {
@@ -49,6 +73,7 @@ body {
 h1, h2 {
     font-family: 'Baloo 2', cursive;
     text-align: center;
+    color: #7a3e00;
 }
 
 h1 {
@@ -66,7 +91,7 @@ section {
     padding: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 20px 3px brown;
-    border-radius: 2%;
+    border-radius: 8px;
 }
 
 .centrer {
@@ -77,6 +102,28 @@ section {
     width: 500px;
     height: auto;
     margin-top: 20px;
+    border-radius: 8px;
+}
+
+.next {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background-color: #990000;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.anecdote {
+    background: white;
+    border-left: 4px solid #e0bb76;
+    border-radius: 8px;
+    padding: 16px 20px;
+    max-width: 600px;
+    margin: 24px auto;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
 }
 
 #decouvrir {
@@ -85,11 +132,6 @@ section {
     justify-content: space-around;
     margin-bottom: 50px;
     row-gap: 50px;
-}
-
-a > img {
-    width: 400px;
-    height: auto;
 }
 
 table, td, caption {
