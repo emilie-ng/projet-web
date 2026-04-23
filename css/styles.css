@@ -220,12 +220,14 @@ legend {
     background-color:#8C8F6A;
     color:white;
     border-radius: 5px;
+    padding: 8px;
 }
 
 #startquiz {
     background-color:#8A5F3D;
     color:white;
     border-radius: 5px;
+    padding: 8px;
 }
 
 ol > li {
