@@ -85,7 +85,7 @@ h2 {
     font-size: 200%;
 }
 
-section {
+section, .blocA {
     background-color: #fff6e3;
     max-width: 1200px;
     margin: auto;
@@ -202,6 +202,10 @@ fieldset {
     border-radius: 40px;
 }
 
+#petit {
+    font-size: 80%;
+}
+
 legend {
     background-color: #8A5F3D;
     color: white;
@@ -210,7 +214,7 @@ legend {
 .taille_capy {
     width: 400px;
     height: auto;
-}
+}   
 
 #soumettre {
     background-color:#8C8F6A;
@@ -222,4 +226,8 @@ legend {
     background-color:#8A5F3D;
     color:white;
     border-radius: 5px;
+}
+
+ol > li {
+    margin-bottom: 20px;
 }

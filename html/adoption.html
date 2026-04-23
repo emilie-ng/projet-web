@@ -5,7 +5,7 @@
     <title>Capybara Hub</title>
     <meta charset='utf-8'>
     <link rel= "stylesheet" href="../css/styles.css">
-    <script type="text/javascript" src="../js/quiz.js"></script>
+    <script src="../js/quiz.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -70,8 +70,8 @@
     </section>
 
     <h1>Formulaire d'adoption</h1>
-    <section class="centrer">
-        <form id="formulaire"action="/adoption.html" method="post">
+    <div class="centrer blocA">
+        <form id="formulaire" action="/adoption.html" method="post">
             <fieldset>
                 <legend>Vos coordonnées</legend>
                 <label for="nom">Nom :</label>
@@ -93,7 +93,13 @@
             </fieldset>
             <input id="startquiz" type="button" value="Envoyer" onclick="submitAdoption()">
         </form>
-    </section>
+
+        <p>⚠️<strong>Avertissement important avant d'adopter</strong>⚠️</p>
+        <p id="petit">Adopter un capybara est un engagement sérieux et de longue durée.<br>
+        Assurez-vous d'avoir les ressources, le temps et l'espace nécessaires pour offrir une vie heureuse et saine à votre nouveau compagnon.<br>
+        Tout acte de maltraitance est punissable par la loi (jusqu'à 100 ans d'emprisonnement et 100 000 000 € d'amende).</p>
+
+    </div>
 
     <footer>
         <p>©️2026 Capy Girls.</p>
