@@ -1,3 +1,52 @@
+class History {
+     
+    constructor() {
+        this.scores=[];
+
+    }
+    addScore(score) {
+        this.scores.push(score);
+    }
+
+    getHistory() {
+        return this.scores;
+    }
+
+    addEventListener() {
+        window.addEventListener('beforeunload', saveScores);
+        window.addEventListener('load', loadScores);
+    }
+}
+
+
+function saveScores() {
+    localStorage.setItem('History', JSON.stringify(historyScores.getHistory()));
+}
+
+
+function loadScores() {
+    const saved = JSON.parse(localStorage.getItem('History'));
+    const tbody = document.querySelector("tbody");
+    if (saved && tbody) {
+        saved.forEach(entry => {
+            historyScores.addScore(entry);
+
+            let ligne = document.createElement("tr");
+            let nom = document.createElement("td");
+            nom.textContent = entry.nom;
+            let s = document.createElement("td");
+            s.textContent = entry.score;
+            ligne.appendChild(nom);
+            ligne.appendChild(s);
+            document.querySelector("tbody").appendChild(ligne);
+        });
+
+    }
+}
+
+
+
+
 function submitQuiz(){
     let nom=document.getElementById("nom").value;
 
@@ -33,6 +82,9 @@ function submitQuiz(){
         if (score<0){
             score=0
         }
+
+        historyScores.addScore({ nom: nom, score: score });
+        saveScores(); 
 
         let ligne= document.createElement("tr");
 
@@ -78,3 +130,6 @@ function submitAdoption(){
 
 
 }
+
+let historyScores=new History();
+historyScores.addEventListener();
