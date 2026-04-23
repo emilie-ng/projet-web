@@ -179,6 +179,12 @@ thead, tfoot {
     height: auto;
 }
 
+.repartir {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 form {
     padding: 30px;
     margin: 10px;
